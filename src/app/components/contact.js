@@ -29,7 +29,7 @@ export default function Contact() {
           href="https://www.linkedin.com/in/rimsha-jamil-476a64282/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-indigo-500 transition"
+          className="hover:text-blue-400  transition"
         >
           <FaLinkedin />
         </a>

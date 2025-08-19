@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative flex flex-col items-center space-y-6 max-w-lg px-4">
         <img
-          src="https://cdn-icons-png.freepik.com/512/6833/6833605.png" // Replace with your profile picture
+          src="https://cdn-icons-png.freepik.com/512/6833/6833605.png" 
           alt="Rimsha Jamil"
           className="w-36 h-36 rounded-full border-4 border-white shadow-lg object-cover"
         />
