@@ -7,7 +7,7 @@ export default function Projects() {
         {/* Project 1 */}
         <div className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
           <img
-            src="https://bidhee.com/uploads/work/2019-12-25-10-43-45-Inventory.svg" //  place image in public folder
+            src="https://bidhee.com/uploads/work/2019-12-25-10-43-45-Inventory.svg" 
             alt="Inventory System"
             className="w-full h-40 object-fill rounded-lg mb-4"
           />

@@ -1,15 +1,31 @@
 export default function Hero() {
   return (
     <section
-      className="h-screen flex flex-col justify-center items-center bg-cover bg-center text-white text-center"
-      style={{ backgroundImage: "url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-92084.jpg?semt=ais_hybrid&w=740&q=80')" }}
+      className="relative h-screen flex flex-col justify-center items-center text-white text-center"
+      style={{
+        backgroundImage:
+          "url('https://img.freepik.com/premium-vector/abstract-colorful-sales-background-concept_250207-246.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
-      <div className="bg-black bg-opacity-50 p-8 rounded-lg">
-        <h1 className="text-4xl font-medium">Hi, I'm Rimsha</h1>
-        <p className="mt-4 text-lg">Web & Flutter Developer | MERN Enthusiast</p>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40"></div>
+
+      {/* Content */}
+      <div className="relative flex flex-col items-center space-y-6 max-w-lg px-4">
+        <img
+          src="https://cdn-icons-png.freepik.com/512/6833/6833605.png" // Replace with your profile picture
+          alt="Rimsha Jamil"
+          className="w-36 h-36 rounded-full border-4 border-white shadow-lg object-cover"
+        />
+        <h1 className="text-4xl font-bold">Hi, I'm Rimsha</h1>
+        <p className="text-lg text-gray-200">
+          Web & Flutter Developer | MERN Enthusiast
+        </p>
         <a
           href="#projects"
-          className="mt-6 inline-block px-6 py-3 bg-white text-indigo-700 rounded-lg shadow hover:bg-gray-100"
+          className="mt-4 px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-500 transition"
         >
           View My Work
         </a>
