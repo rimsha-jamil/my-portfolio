@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-8 py-4 bg-white shadow-md">
+    <nav className="flex justify-between items-center px-8 py-4 bg-white shadow-md" data-aos="fade-down">
       <h1 className="text-2xl font-bold">Rimsha Jamil</h1>
     
       <ul className="flex gap-6">

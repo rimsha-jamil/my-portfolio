@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 px-8 bg-black text-center">
+    <section id="contact" className="py-20 px-8 bg-black text-center" >
       <h2 className="text-3xl font-bold mb-6 text-white">Let's Connect</h2>
       <p className="text-white mb-4">
         Email:{" "}

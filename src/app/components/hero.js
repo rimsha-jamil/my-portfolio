@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section
-      className="relative h-screen flex flex-col justify-center items-center text-white text-center"
+      className="relative h-screen flex flex-col justify-center items-center text-white text-center" data-aos="fade-up"
       style={{
         backgroundImage:
           "url('https://img.freepik.com/premium-vector/abstract-colorful-sales-background-concept_250207-246.jpg')",
@@ -10,7 +10,7 @@ export default function Hero() {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/40" ></div>
 
       {/* Content */}
       <div className="relative flex flex-col items-center space-y-6 max-w-lg px-4">

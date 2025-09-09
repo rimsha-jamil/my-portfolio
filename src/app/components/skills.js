@@ -15,7 +15,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 px-8 bg-gray-50">
+    <section id="skills" className="py-24 px-8 bg-gray-50" data-aos="fade-up">
       <h2 className="text-3xl font-semibold mb-12 text-center">Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl mx-auto cursor-pointer">
         {skills.map((skill, index) => (
